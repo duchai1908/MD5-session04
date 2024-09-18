@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-2 {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: auto auto;
+  background-color: bisque;
+}
+
+.login {
+  padding: 20px 150px;
+}
+
+.login-option-re {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  width: 100%; /* Allow label/input to take full width of parent */
+}
+
+.login-option {
+  display: flex;
+  position: relative;
+  justify-content: space-between; /* Space between elements */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Make inputs full width */
+  padding: 8px; /* Add padding for aesthetics */
+  margin-top: 5px; /* Space between label and input */
+}
+
+.btn {
+  width: 100%; /* Make the button full width */
+  padding: 10px; /* Add padding for aesthetics */
+  margin-top: 10px; /* Space between inputs and button */
+  border: 1px solid red;
+}
+.login-option-re-2{
+  display: flex;
+  width: 100%; /* Allow label/input to take full width of parent */
+}
+
+.register{
+  padding: 20px 150px;
+}
+
+
+
+input[type="checkbox"] {
+  width: 15px; /* Width of the checkbox */
+  height: 15px; /* Height of the checkbox */
+  transform: scale(1.5); /* Scale the checkbox */
+  margin-right: 10px; /* Spacing between checkbox and label */
+}
